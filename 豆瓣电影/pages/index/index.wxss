@@ -1,0 +1,34 @@
+/* pages/index/index.wxss */
+page {
+  height:100%;
+}
+.content {
+  background-color: #3a3a3a;
+  min-height:100%;
+}
+.movie {
+  padding:5px 0;
+  display: flex;
+  border-bottom:1px solid #888;
+}
+.pic image {
+  width:200rpx;
+  height:300rpx;
+  vertical-align: top;
+}
+.movie-info {
+  padding-left:40rpx;
+}
+.base-info {
+  color:#fff;
+  font-size:12px;
+  padding-top:40rx;
+  line-height: 20px;
+}
+
+
+
+
+
+
+

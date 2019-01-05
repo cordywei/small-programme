@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="content">
+  <button bindtap='btnPlay'>播放音乐</button>
+  <button bindtap='btnGetInfo'>获取音乐状态</button>
+  <button bindtap='btnPause'>暂停</button>
+  <button bindtap='btnStop'>停止</button>
+</view>

@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "豆瓣电影",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "backgroundColor":"#000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "当前热映",
+        "iconPath":""
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "影院选择"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "查询"
+      }
+    ]
+  }
+}

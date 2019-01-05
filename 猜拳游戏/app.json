@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/caiquan-game/caiquan-game"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

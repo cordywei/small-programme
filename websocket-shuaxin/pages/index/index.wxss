@@ -1,0 +1,5 @@
+/**index.wxss**/
+.stock {
+  display: flex;
+  justify-content: space-around;
+}

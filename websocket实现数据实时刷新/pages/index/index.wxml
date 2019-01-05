@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+ <button bindtap='connect'>建立连接</button>
+</view>

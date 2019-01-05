@@ -1,0 +1,23 @@
+<!--pages/caiquan-game/caiquan-game.wxml-->
+<view class="downView">
+  <text class='winNum'>你已经获胜了<text style='color:red'>{{winNum}}</text></text>
+
+  <view class="showView">
+    <image src='{{imageUserScr}}' class="gestureImgL"></image>
+    <text class="winOrLost">{{gameOfPlay}}</text>
+    <image src="{{imageClickSrc}}" class="gestureImgR"></image>
+  </view>
+  
+  <view class="chooseForUserView">
+    <text class="winNum">出拳吧，少年</text>
+    <view class="choose-V">
+      <block wx:for="{{srcs}}" wx:key="this">
+        <view class="choose-view" id="{{index}}" bindtap='changeForChoose'>
+          <image class="choose-image" src="{{item}}"></image>
+        </view>
+      </block>
+    </view>
+    <button class="againBtn" bindtap='again'>再来</button>
+  </view>
+
+</view>

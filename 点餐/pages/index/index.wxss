@@ -1,0 +1,88 @@
+/**index.wxss**/
+.menu picker {
+  display: inline-flex;
+  margin:15rpx 20rpx;
+}
+.foodList{
+  height:700rpx;
+}
+.food-item {
+  width:100%;
+  background-color: #f0f0f0;
+}
+.food-item-l {
+  width:45%;
+  display: inline-block;
+}
+.food-item_img {
+  position: relative;
+  height: 440rpx;
+}
+.food-item_name {
+  width:100%;
+  line-height: 50rpx;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.6);
+  color:white;
+}
+.food-item-l {
+  margin:20rpx 18rpx;
+}
+.food-item-l image{
+  width:100%;
+  height: 440rpx;
+}
+.food-item_handle {
+  width:100%;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.order-view {
+  width: 100%;
+  height:100rpx;
+  display: inline-flex;
+  justify-content: space-around;
+}
+.order-number {
+  width:50%;
+  display: inline-flex;
+  justify-content: space-around;
+  position: relative;
+
+}
+.order-number .order-num-txt{
+  position: absolute;
+  left:140rpx;
+  top:10rpx;
+  font-size: 30rpx;
+  line-height: 20rpx;
+  padding:10rpx;
+  background-color: red;
+  color: white;
+  border-radius: 100%;
+}
+
+.order-number image {
+  width: 100rpx;
+  height:100rpx;
+  vertical-align: middle;
+}
+.order-number text {
+  display: inline-block;
+  line-height: 100rpx;
+}
+.order-bt {
+  width: 50%;
+  line-height: 100rpx;
+  background-color: green;
+  color:white;
+  text-align: center;
+}
+
+
+
+
+

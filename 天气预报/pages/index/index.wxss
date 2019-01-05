@@ -1,0 +1,58 @@
+/**index.wxss**/
+page {
+  height: 100%;
+  background:linear-gradient(to bottom left,green,greenyellow) ;
+  color:white;
+}
+.today {
+  width:80%;
+  height: 50%;
+  padding: 10%;
+  margin-top: 50rpx;
+  text-align: center;
+  background-color: green;
+  box-shadow: 20rpx 20rpx 20rpx 0 green;
+}
+.tips {
+  text-align: left;
+}
+.info {
+  font-size: 30rpx;
+}
+.temp {
+  font-size: 60rpx;
+}
+.city {
+  text-align: right;
+  padding-top:20rpx;
+}
+.weather {
+  padding:20rpx 0
+}
+
+.future {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: green;
+  margin-top: 300rpx;
+  padding:10rpx 0;
+}
+.future-item {
+  border:1px solid white;
+  padding: 50rpx 0;
+  border-radius: 10rpx;
+  flex:1;
+}
+.future-item view {
+  padding:20rpx 0;
+  text-align: center;
+}
+
+
+
+
+
+
+
+

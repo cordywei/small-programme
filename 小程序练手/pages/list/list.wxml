@@ -1,0 +1,15 @@
+<!--pages/list/list.wxml-->
+<view class="page">
+  <scroll-view scroll-y="true" class="lists">
+    <block wx:for="{{lists}}" wx:key="unique">
+      <!-- catchtap绑定阻止冒泡事件 -->
+      <view class="list-i" bindtap="edit" data-id="{{index}}">  
+        <view class="content">{{item.content}}</view>
+        <view class="time">{{item.time}}</view>
+      </view>
+    </block>
+  </scroll-view>
+  <view class="add" bindtap="add">
+    <image src="../../image/1.png"></image>
+  </view>
+</view>

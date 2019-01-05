@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <button bindtap='connect'>建立连接</button>
+  <view class="stockboard">
+    <block wx:for="{{stock}}" wx:key="index">
+      <view class="stock">
+        <text>{{item.name}}</text>
+        <text>{{item.price}}</text>
+      </view>
+    </block>
+  </view>
+</view>
